@@ -13,6 +13,10 @@ set guioptions-=r
 set guioptions-=R
 set t_CO=256
 set showmode
+highlight LineNr ctermfg=red ctermbg=black
+set foldcolumn=1
+hi foldcolumn ctermbg=black
+hi vertsplit ctermfg=black ctermbg=green
 
 
 
